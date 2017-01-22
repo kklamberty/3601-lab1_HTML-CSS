@@ -7,6 +7,16 @@ Your specific tasks for this lab can be found in the [LABTASKS.md](LABTASKS.md) 
 ## Setup Instructions:
 Clone your repository to your local working environment.
 
+On GitHub, you'll need to visit the *settings* for your repository and change the *GitHub Pages*
+settings. Under the "Source" section, you'll need to select the branch ``master``, and save your
+settings. 
+
+> Doing this will 'host' your website, specifically the version that is on
+> your ``master`` branch. This means that everything you push to ``master``
+> will, in a sense, be 'published' - hence it is important that you practice
+> responsible version control and only push completed features to your ``master``
+> branch.
+
 ## "Running" your project
 To view your website, you should be able to simply open the ``index.html`` file in your browser of choice.
 (In most cases, 'double clicking' the file should do this)
