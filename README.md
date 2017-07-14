@@ -19,7 +19,7 @@ and you should use pull requests on github to merge
 changes from feature branches into your master branch.
 
 ## Resources:
-####Validating your code:
+#### Validating your code:
 - [HTML Validation](http://validator.w3.org/)
 - [CSS Validation](http://jigsaw.w3.org/css-validator/)
 
