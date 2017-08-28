@@ -3,7 +3,22 @@
  <head>
   <meta charset="utf-8">
   <title>UMM Computer Science</title>
-  <link rel="stylesheet" href="./css/style1.css">
+  <link rel="stylesheet" type="text/css" href="./css/style1.css">
+     <!--suppress SpellCheckingInspection -->
+     <script type="text/javascript">
+         function changeCSS(cssFile, cssLinkIndex) {
+
+             // noinspection SpellCheckingInspection
+             var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+             var newlink = document.createElement("link");
+             newlink.setAttribute("rel", "stylesheet");
+             newlink.setAttribute("type", "text/css");
+             newlink.setAttribute("href", "./css/"+cssFile);
+
+             document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+         }
+     </script>
  </head>
  <body>
   <h1 id="main-title">UMM Computer Science</h1>
@@ -32,13 +47,13 @@
               </ul>
           </li>
           <li>CSci 2101</li>
-          <li>Core Courses</li>
+          <li>Core Courses
           <ul>
               <li>CSci 3402</li>
               <li>CSci 3403</li>
               <li>CSci 3501</li>
               <li>CSci 3601</li>
-          </ul>
+          </ul></li>
           <li>Ten credits of electives 4xxx so that the split of credits is at least 4 in two of the areas and at least 2 in the third area.</li>
           <li>IS 1091</li>
           <li>CSci 4901</li>
@@ -48,11 +63,11 @@
                   <li>stat 2xxx of above</li>
               </ul>
           </li>
-        </ul>
-     </div>
-     <div class="section" id="faculty">
-             <h2>Faculty</h2>
-     <ul id="faculty-list">
+      </ul>
+  </div>
+  <div class="section" id="faculty">
+      <h2>Faculty</h2>
+      <ul id="faculty-list">
          <li id="Elena">
              <div class="name">Elena</div>
              <div class="office">Science 2325</div>
@@ -74,9 +89,16 @@
              <img class="pic" src="./assets/images/Peter.jpg"  alt="Peter" />
          </li>
          
-         </ul>
-     </div>
+      </ul>
+  </div>
 
+  <div id="style">
+      <ul>
+          <li><a href="#" onclick="changeCSS('style1.css', 0);">Style 1</a></li>
+          <li><a href="#" onclick="changeCSS('style2.css', 0);">Style 2</a></li>
+          <li><a href="#" onclick="changeCSS('style3.css', 0);">Style 3</a></li>
+      </ul>
+  </div>
      
  </body>
 </html>
