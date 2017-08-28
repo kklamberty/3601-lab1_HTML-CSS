@@ -34,13 +34,6 @@ changes from feature branches into your master branch.
 - [HTML Validation](http://validator.w3.org/)
 - [CSS Validation](http://jigsaw.w3.org/css-validator/)
 
-#### Example Website:
-- [Here](https://umm-csci-3601.github.io/3601-lab1-example/) is an example of a web page put together by students in a previous
-offering of this course. You should avoid basing your design on this
-example, it's just here to help you get an idea of what the requirements
-are actually talking about.
-
-
 #### Generally helpful things:
 - [HTML Tutorial at W3 Schools](http://www.w3schools.com/html/default.asp)
 - [HTML5 Specific Tutorial at W3 Schools](http://www.w3schools.com/html/html5_intro.asp)
