@@ -8,24 +8,24 @@ Your specific tasks for this lab can be found in the [LABTASKS.md](LABTASKS.md) 
 Clone your repository to your local working environment.
 
 On GitHub, you'll need to visit the *settings* for your repository and change the *GitHub Pages*
-settings. Under the "Source" section, you'll need to select the branch ``master``, and save your
-settings. 
+settings. Under the "Source" section, you'll need to select the branch `master`, and save your
+settings.
 
 > Doing this will 'host' your website, specifically the version that is on
-> your ``master`` branch. This means that everything you push to ``master``
+> your `master` branch. This means that everything you push to `master`
 > will, in a sense, be 'published' - hence it is important that you practice
-> responsible version control and only push completed features to your ``master``
+> responsible version control and only push completed features to your `master`
 > branch.
 
 ## "Running" your project
-To view your website, you should be able to simply open the ``index.html`` file in your browser of choice.
+To view your website, you should be able to simply open the `index.html` file in your browser of choice.
 (In most cases, 'double clicking' the file should do this. In IntelliJ IDEA, you can right click on the file,
-choose "Open in Browser", and choose the browser you'd like to use.) 
+choose "Open in Browser", and choose the browser you'd like to use.)
 
 #### Version Control Reminder
 Remember to practice good version control! New features should be developed in
 feature branches, [commit messages should be in the present tense and provide
-meaningful information](http://chris.beams.io/posts/git-commit/), 
+meaningful information](http://chris.beams.io/posts/git-commit/),
 and you should use pull requests on github to merge
 changes from feature branches into your master branch.
 
@@ -35,7 +35,7 @@ changes from feature branches into your master branch.
 - [CSS Validation](http://jigsaw.w3.org/css-validator/)
 
 #### Example Website:
-- [Here](https://umm-csci-3601.github.io/3601-lab1-example/)is an example of a web page put together by students in a previous
+- [Here](https://umm-csci-3601.github.io/3601-lab1-example/) is an example of a web page put together by students in a previous
 offering of this course. You should avoid basing your design on this
 example, it's just here to help you get an idea of what the requirements
 are actually talking about.
@@ -52,5 +52,3 @@ are actually talking about.
   - [CSS3 Features](http://www.w3schools.com/css/css3_intro.asp)- Relatively recent stuff, cool features not yet supported by all browsers.
 - [CSS Zen Garden](http://www.csszengarden.com/)- Some fancy examples of CSS, all of which use the same HTML, but look wildly different
 - [Daily CSS Fun](https://placenamehere.com/neuralustmirror/200202/)- Examples of several CSS pages altering the same HTML
-
-
