@@ -28,16 +28,19 @@ Please read carefully the list of technical requirements below and follow it pre
       on multiple screen sizes rather than constructing multiple
       designs for each type of device. To see how your page would look on some phones or tablets: open your page in Chrome > right-click the page > click "inspect element" > click the little phone symbol in the top-left corner. This will show roughly what your site would look like on the chosen device. Or just resize your browser
       window so that it's really narrow and see how it behaves.
-  - Your CSS must leverage the fact that the page has the **following elements implemented as div elements;** use CSS positioning, see [the links in the README](./README.md) for support in understanding how to use CSS to alter:
+  - Your CSS can leverage the fact that the page has the following **elements of interest**; see [the links in the README](./README.md) for support in understanding how to use CSS to alter the look of the page. You should particularly care about these features that were included to make the CSS more fun:
     - A **navigation bar.** It must behave reasonably when you resize the window. It may be horizontal or vertical, but should differ
     in some meaningful way between your two CSS files.
-    - A **footer** with the company's address, contact information, etc.
-  - At least **three images**. Since we don't have a real business to develop the page for, just use any images as a mock-up. Make sure you abide by relevant copyrights; it's probably simplest if you search for images that have appropriate Creative Commons licenses. The quality of the images is not a part of the grade.
-
-> Pro tip: If you're having trouble finding decent images for your site, remember that you can take pictures with your phone and use them. As long as no people or company logos are featured prominently, images should be safe to use.
-
-  - You must use at least **12 elements** in your page. List items of the same list count as one element for this purpose.
-  - You must use at least **10 CSS rules** in your CSS file (a rule is a selector followed by settings for this selector).
-  - In your CSS you must use each of the following: **grouping, nesting, a class, and an id**.
-
-> Pro tip: If you play with grouping and nesting after you've already written a bit of CSS, it'll be easier to understand why it's so cool. A good explanation of grouping and nesting can be found [here](http://lmgtfy.com/?q=grouping+and+nesting+css&l=1). Also, you can see some general info on CSS selectors [here](http://www.w3schools.com/cssref/css_selectors.asp).
+    - A **footer** with some information.
+    - Four images of the faculty members **each of which has a div with a unique id**
+    - Four faculty members in a list with their names and office locations in div classes
+    - Multiple divs that have unique ids **but have the same class attribute value**
+          - Multiple lists, both ordered and unordered **so that you may handle lists in different ways** and show some cool css features
+  
+## How do you know you are "done"? How will you be graded?
+  - Be sure to view the rubric for the assignment to see how the technical requirements from the list above will impact your grade
+  - Each of your CSS files must include **5 CSS rules with comments** that describe the impact of the rule and how it differs from the other two style sheets.
+    - a rule is a selector followed by settings for this selector
+    - you may include more rules to make the page look really cool, but please comment on the 5 that you wish to have graded from each file
+  - In addition to the minimum of 5 CSS rules with comments, your CSS you must use and point out in comments somewhere in your edited style files each of the following: **grouping, nesting, a class, and an id**.
+    > Pro tip: If you play with grouping and nesting after you've already written a bit of CSS, it'll be easier to understand why it's so cool. A good explanation of grouping and nesting can be found [here](http://lmgtfy.com/?q=grouping+and+nesting+css&l=1). Also, you can see some general info on CSS selectors [here](http://www.w3schools.com/cssref/css_selectors.asp).
