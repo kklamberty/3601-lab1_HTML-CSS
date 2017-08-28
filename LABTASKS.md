@@ -29,13 +29,13 @@ Please read carefully the list of technical requirements below and follow it pre
       designs for each type of device. To see how your page would look on some phones or tablets: open your page in Chrome > right-click the page > click "inspect element" > click the little phone symbol in the top-left corner. This will show roughly what your site would look like on the chosen device. Or just resize your browser
       window so that it's really narrow and see how it behaves.
   - Your CSS can leverage the fact that the page has the following **elements of interest**; see [the links in the README](./README.md) for support in understanding how to use CSS to alter the look of the page. You should particularly care about these features that were included to make the CSS more fun:
-    - A **navigation bar.** It must behave reasonably when you resize the window. It may be horizontal or vertical, but should differ
+    - A **navigation bar.** Actually, this is just a list that is presented as a navigation bar in `style1.css' It must behave reasonably when you resize the window. In your style files, it may be horizontal or vertical, but should differ
     in some meaningful way between your two CSS files.
-    - A **footer** with some information.
     - Four images of the faculty members **each of which has a div with a unique id**
+    - Course requirements with a variety of parts that have class attribute values 
     - Four faculty members in a list with their names and office locations in div classes
     - Multiple divs that have unique ids **but have the same class attribute value**
-          - Multiple lists, both ordered and unordered **so that you may handle lists in different ways** and show some cool css features
+    - Multiple lists, both ordered and unordered **so that you may handle lists in different ways** and show some cool css features
   
 ## How do you know you are "done"? How will you be graded?
   - Be sure to view the rubric for the assignment to see how the technical requirements from the list above will impact your grade
