@@ -48,7 +48,7 @@ are actually talking about.
   - [A guide to font families](http://www.w3schools.com/cssref/css_websafe_fonts.asp)
   - [CSS Box Model](http://www.w3schools.com/css/css_boxmodel.asp)
   - [CSS Float](http://www.w3schools.com/css/css_float.asp)- How to position elements next to each other
-  - [CSS Display and Visability](http://www.w3schools.com/css/css_display_visibility.asp)
+  - [CSS Display and Visibility](http://www.w3schools.com/css/css_display_visibility.asp)
   - [CSS3 Features](http://www.w3schools.com/css/css3_intro.asp)- Relatively recent stuff, cool features not yet supported by all browsers.
 - [CSS Zen Garden](http://www.csszengarden.com/)- Some fancy examples of CSS, all of which use the same HTML, but look wildly different
 - [Daily CSS Fun](https://placenamehere.com/neuralustmirror/200202/)- Examples of several CSS pages altering the same HTML
