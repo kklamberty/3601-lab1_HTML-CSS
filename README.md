@@ -1,44 +1,51 @@
 # CSCI 3601 Lab #1 - HTML and CSS Lab
-In this lab you will learn to create a simple website using HTML and CSS, following best practices
-and using validated code, all while maintaining good version control.
+In this lab you will learn to alter the look of a simple HTML website using CSS, following best practices
+and using validated code, all while maintaining good version control. Previous versions of this lab had students create
+both HTML and CSS, but we were inspired by [CSS Zen Garden](http://www.csszengarden.com/) to have students focus on
+understanding how CSS alone can greatly alter the look and feel of a web page.
 
 Your specific tasks for this lab can be found in the [LABTASKS.md](LABTASKS.md) file in this repository.
 
-## Setup Instructions:
+## Setup Instructions
 Clone your repository to your local working environment.
 
-## "Running" your project
-To view your website, you should be able to simply open the ``index.html`` file in your browser of choice.
-(In most cases, 'double clicking' the file should do this)
+On GitHub, you'll need to visit the *settings* for your repository and change the *GitHub Pages*
+settings. Under the "Source" section, you'll need to select the branch `master`, and save your
+settings.
 
-#### Version Control Reminder:
+> Doing this will 'host' your website, specifically the version that is on
+> your `master` branch. This means that everything you push to `master`
+> will, in a sense, be 'published' - hence it is important that you practice
+> responsible version control and only push completed features to your `master`
+> branch.
+
+## "Running" your project
+To view your website, you should be able to simply open the `index.html` file in your browser of choice.
+(In most cases, 'double clicking' the file should do this. In IntelliJ IDEA, you can right click on the file,
+choose "Open in Browser", and choose the browser you'd like to use.)
+
+#### Version Control Reminder
 Remember to practice good version control! New features should be developed in
 feature branches, [commit messages should be in the present tense and provide
-meaningful information](http://chris.beams.io/posts/git-commit/), 
+meaningful information](http://chris.beams.io/posts/git-commit/),
 and you should use pull requests on github to merge
 changes from feature branches into your master branch.
 
-## Resources:
-####Validating your code:
+## Resources
+#### Validating your code:
 - [HTML Validation](http://validator.w3.org/)
 - [CSS Validation](http://jigsaw.w3.org/css-validator/)
 
-####Example Website
-- [Here](https://umm-csci-3601.github.io/3601-lab1-example/) is an example of a web page put together by students in a previous
-offering of this course. You should avoid basing your design on this
-example, it's just here to help you get an idea of what the requirements
-are actually talking about.
-
-
-####Generally helpful things:
+#### Generally helpful things:
 - [HTML Tutorial at W3 Schools](http://www.w3schools.com/html/default.asp)
 - [HTML5 Specific Tutorial at W3 Schools](http://www.w3schools.com/html/html5_intro.asp)
 - [CSS tutorial at W3 Schools](http://www.w3schools.com/css/default.asp), particularly:
   - [A guide to font families](http://www.w3schools.com/cssref/css_websafe_fonts.asp)
   - [CSS Box Model](http://www.w3schools.com/css/css_boxmodel.asp)
-  - [CSS Float](http://www.w3schools.com/css/css_float.asp): How to position elements next to each other
-  - [CSS Display and Visability](http://www.w3schools.com/css/css_display_visibility.asp)
-  - [CSS3 Features](http://www.w3schools.com/css/css3_intro.asp) - Relativly recent stuff, cool features not yet supported by all browsers.
-
-
-
+  - [CSS Float](http://www.w3schools.com/css/css_float.asp)- How to position elements next to each other
+  - [CSS Display and Visibility](http://www.w3schools.com/css/css_display_visibility.asp)
+  - [CSS3 Features](http://www.w3schools.com/css/css3_intro.asp)- Relatively recent stuff, cool features not yet supported by all browsers.
+- [CSS Zen Garden](http://www.csszengarden.com/)- Some fancy examples of CSS, all of which use the same HTML, but look wildly different
+- [Daily CSS Fun](https://placenamehere.com/neuralustmirror/200202/)- Examples of several CSS pages altering the same HTML
+- [FontJoy](http://fontjoy.com) – a cool tool for helping find combinations of fonts that work well together
+- [Colormind](http://colormind.io) – a cool tool for helping find color combinations that work well together
