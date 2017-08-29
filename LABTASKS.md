@@ -4,7 +4,7 @@ Your task for this lab is to develop two different looks for a web page using di
  - All of the formatting (including the positioning of elements in the page) must be done using CSS.
  - Do not alter the HTML.
     - The _one_ exception to this rule is if you want to load Google Fonts in your HTML so they'll be available in your CSS. (There are ways to do this entirely in CSS, but the "standard" approach typically involves modifying the HTML.)
- - Do not use absolute settings for sizes, make them relative to your page size and your default font.  
+ - Be intentional and sparing with your use of absolute sizes for things like font and location. Your style sheet should make the web page look nice for both a phone and a computer screen, and your choices should not interfere with accessibility in obvious ways.
 
 ## Technical Requirements
 Please read carefully the list of technical requirements below and follow it precisely.
