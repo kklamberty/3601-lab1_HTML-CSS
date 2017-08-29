@@ -3,6 +3,7 @@
 Your task for this lab is to develop two different looks for a web page using different CSS without altering the HTML.
  - All of the formatting (including the positioning of elements in the page) must be done using CSS.
  - Do not alter the HTML.
+    - The _one_ exception to this rule is if you want to load Google Fonts in your HTML so they'll be available in your CSS. (There are ways to do this entirely in CSS, but the "standard" approach typically involves modifying the HTML.)
  - Do not use absolute settings for sizes, make them relative to your page size and your default font.  
 
 ## Technical Requirements
@@ -20,7 +21,8 @@ Please read carefully the list of technical requirements below and follow it pre
       > You can use nifty fonts from places like
       [Google Fonts](https://fonts.google.com); this will require
       an (acceptable) change to the HTML file to load in the necessary
-      font files.
+      font files. Tools like [FontJoy](http://fontjoy.com) can be useful for
+      helping find font combinations that look good together.
     - Your page must look reasonable in all standard browsers (recent Chrome, Firefox, Safari, IE, Edge) and preserve its setup when the window is resized.
       > Pro tip: Making web pages that can resize across many different screen sizes and devices is referred to as _responsive web design_. This is very important since [more web views are happening
       on phones now than on computers](https://www.theguardian.com/technology/2016/nov/02/mobile-web-browsing-desktop-smartphones-tablets).
@@ -32,11 +34,11 @@ Please read carefully the list of technical requirements below and follow it pre
     - A **navigation bar.** Actually, this is just a list that is presented as a navigation bar in `style1.css' It must behave reasonably when you resize the window. In your style files, it may be horizontal or vertical, but should differ
     in some meaningful way between your two CSS files.
     - Four images of the faculty members **each of which has a div with a unique id**
-    - Course requirements with a variety of parts that have class attribute values 
+    - Course requirements with a variety of parts that have class attribute values
     - Four faculty members in a list with their names and office locations in div classes
     - Multiple divs that have unique ids **but have the same class attribute value**
     - Multiple lists, both ordered and unordered **so that you may handle lists in different ways** and show some cool css features
-  
+
 ## How do you know you are "done"? How will you be graded?
   - Be sure to view the rubric for the assignment to see how the technical requirements from the list above will impact your grade
   - Each of your CSS files must include **5 CSS rules with comments** that describe the impact of the rule and how it differs from the other two style sheets.
