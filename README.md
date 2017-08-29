@@ -18,6 +18,12 @@ settings.
 > will, in a sense, be 'published' - hence it is important that you practice
 > responsible version control and only push completed features to your `master`
 > branch.
+>
+> When you publish your site to Github pages, Github will display the URL
+> where you can find your published site. The primary repo we use to manage
+> changes to this lab across semesters is published
+> at http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/;
+> yours will be at a different URL but should look somewhat similar.
 
 ## "Running" your project
 To view your website, you should be able to simply open the `index.html` file in your browser of choice.
