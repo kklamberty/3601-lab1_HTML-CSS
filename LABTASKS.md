@@ -28,7 +28,8 @@ Please read carefully the list of technical requirements below and follow it pre
       on phones now than on computers](https://www.theguardian.com/technology/2016/nov/02/mobile-web-browsing-desktop-smartphones-tablets).
       By using fancy styling and other tools to adjust how a web page looks, developers can make a single page that will look good
       on multiple screen sizes rather than constructing multiple
-      designs for each type of device. To see how your page would look on some phones or tablets: open your page in Chrome > right-click the page > click "inspect element" > click the little phone symbol in the top-left corner. This will show roughly what your site would look like on the chosen device. Or just resize your browser
+      designs for each type of device. To see how your page would look on some phones or tablets:
+      Open your page in Chrome > right-click the page > click "inspect element" > click the little phone symbol in the top-left corner. This will show roughly what your site would look like on the chosen device. In Firefox, click on the Developer button and choose Responsive Design mode. Or just resize your browser
       window so that it's really narrow and see how it behaves.
   - Your CSS can leverage the fact that the page has the following **elements of interest**; see [the links in the README](./README.md) for support in understanding how to use CSS to alter the look of the page. You should particularly care about these features that were included to make the CSS more fun:
     - A **navigation bar.** Actually, this is just a list that is presented as a navigation bar in `style1.css' It must behave reasonably when you resize the window. In your style files, it may be horizontal or vertical, but should differ
