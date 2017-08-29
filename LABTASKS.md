@@ -23,7 +23,7 @@ Please read carefully the list of technical requirements below and follow it pre
       an (acceptable) change to the HTML file to load in the necessary
       font files. Tools like [FontJoy](http://fontjoy.com) can be useful for
       helping find font combinations that look good together.
-    - Your page must look reasonable in all standard browsers (recent Chrome, Firefox, Safari, IE, Edge) and preserve its setup when the window is resized.
+    - Your page must look reasonable in all standard browsers (recent Chrome, Firefox, Safari, IE, Edge) and adapt the layout so that elements remain accessible and visible when the window is resized.
       > Pro tip: Making web pages that can resize across many different screen sizes and devices is referred to as _responsive web design_. This is very important since [more web views are happening
       on phones now than on computers](https://www.theguardian.com/technology/2016/nov/02/mobile-web-browsing-desktop-smartphones-tablets).
       By using fancy styling and other tools to adjust how a web page looks, developers can make a single page that will look good
