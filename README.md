@@ -1,7 +1,7 @@
 # CSCI 3601 Lab #1 - HTML and CSS Lab
 In this lab you will learn to alter the look of a simple HTML website using CSS, following best practices
-and using validated code, all while maintaining good version control. Previous versions of this lab had students create 
-both HTML and CSS, but we were inspired by [CSS Zen Garden](http://www.csszengarden.com/) to have students focus on 
+and using validated code, all while maintaining good version control. Previous versions of this lab had students create
+both HTML and CSS, but we were inspired by [CSS Zen Garden](http://www.csszengarden.com/) to have students focus on
 understanding how CSS alone can greatly alter the look and feel of a web page.
 
 Your specific tasks for this lab can be found in the [LABTASKS.md](LABTASKS.md) file in this repository.
@@ -18,6 +18,12 @@ settings.
 > will, in a sense, be 'published' - hence it is important that you practice
 > responsible version control and only push completed features to your `master`
 > branch.
+>
+> When you publish your site to Github pages, Github will display the URL
+> where you can find your published site. The primary repo we use to manage
+> changes to this lab across semesters is published
+> at http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/;
+> yours will be at a different URL but should look somewhat similar.
 
 ## "Running" your project
 To view your website, you should be able to simply open the `index.html` file in your browser of choice.
@@ -47,3 +53,5 @@ changes from feature branches into your master branch.
   - [CSS3 Features](http://www.w3schools.com/css/css3_intro.asp)- Relatively recent stuff, cool features not yet supported by all browsers.
 - [CSS Zen Garden](http://www.csszengarden.com/)- Some fancy examples of CSS, all of which use the same HTML, but look wildly different
 - [Daily CSS Fun](https://placenamehere.com/neuralustmirror/200202/)- Examples of several CSS pages altering the same HTML
+- [FontJoy](http://fontjoy.com) – a cool tool for helping find combinations of fonts that work well together
+- [Colormind](http://colormind.io) – a cool tool for helping find color combinations that work well together
