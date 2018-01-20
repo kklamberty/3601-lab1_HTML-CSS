@@ -42,8 +42,8 @@ Please read carefully the list of technical requirements below and follow it pre
 
 ## How do you know you are "done"? How will you be graded?
   - Be sure to view the rubric for the assignment to see how the technical requirements from the list above will impact your grade
-  - Each of your CSS files must include **5 CSS rules with comments** that describe the impact of the rule and how it differs from the other two style sheets.
+  - **Each** of your CSS files must include **5 CSS rules with comments** that describe the impact of the rule and how it differs from the other two style sheets.
     - a rule is a selector followed by settings for this selector
     - you may include more rules to make the page look really cool, but please comment on the 5 that you wish to have graded from each file
-  - In addition to the minimum of 5 CSS rules with comments, your CSS you must use and point out in comments somewhere in your edited style files each of the following: **grouping, nesting, a class, and an id**.
+  - In addition to the minimum of 5 CSS rules with comments (in each of the CSS files), your CSS you must use and point out in comments somewhere in your edited style files each of the following: **grouping, nesting, a class, and an id**.
     > Pro tip: If you play with grouping and nesting after you've already written a bit of CSS, it'll be easier to understand why it's so cool. A good explanation of grouping and nesting can be found [here](http://lmgtfy.com/?q=grouping+and+nesting+css&l=1). Also, you can see some general info on CSS selectors [here](http://www.w3schools.com/cssref/css_selectors.asp).
