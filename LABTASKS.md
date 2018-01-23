@@ -11,7 +11,10 @@ Please read carefully the list of technical requirements below and follow it pre
 
   - Your page must be viewable using the three different **external CSS files** included in your repository (one will be an example and you will alter the other two).
   - Your **CSS must validate** using a [CSS validator](https://jigsaw.w3.org/css-validator/), except perhaps warnings about features not supported in all browsers.
-    > Pro tip: Some newer CSS features are not widely supported. If a CSS feature you use is not supported in some browsers, please clearly indicate which browsers support it and which ones don't.
+    - Pro tip: Some newer CSS features are not widely supported. If a CSS feature you use is not supported in some browsers, please clearly indicate which browsers support it and which ones don't.
+    - We've provided links to both the HTML validator and the CSS validator in the
+    `Validation` section of the page. Both validate "out of the box", and you should
+    make sure they continue to validate as you go through the lab.
   - Your CSS must make the page **look reasonable and be relatively easy to navigate.** We will take points off for features that lead to a problematic user experience. Take care that your design avoids common pitfalls.
     - Avoid links that are hard to see.
     - Avoid unpleasant color combinations.
