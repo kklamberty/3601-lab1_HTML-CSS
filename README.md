@@ -2,7 +2,8 @@
 In this lab you will learn to alter the look of a simple HTML website using CSS, following best practices
 and using validated code, all while maintaining good version control. Previous versions of this lab had students create
 both HTML and CSS, but we were inspired by [CSS Zen Garden](http://www.csszengarden.com/) to have students focus on
-understanding how CSS alone can greatly alter the look and feel of a web page.
+understanding how CSS alone can greatly alter the look and feel of a web page. Use of flexbox helps make html elements scale
+with screen size. This is useful for making a webpage usable for mobile devices or small screens.
 
 Your specific tasks for this lab can be found in the [LABTASKS.md](LABTASKS.md) file in this repository.
 
