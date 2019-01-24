@@ -55,3 +55,4 @@ changes from feature branches into your master branch.
 - [Daily CSS Fun](https://placenamehere.com/neuralustmirror/200202/)- Examples of several CSS pages altering the same HTML
 - [FontJoy](http://fontjoy.com) – a cool tool for helping find combinations of fonts that work well together
 - [Colormind](http://colormind.io) – a cool tool for helping find color combinations that work well together
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - Add responsive design to automatically scale elements with page size
