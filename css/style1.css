@@ -16,6 +16,24 @@ body{
 
 }
 
+/* Use of media query to change the flex-direction of the #pslo and #courses elements when
+the width of the screen exceeds 1500px to put them side-by-side.
+ */
+@media screen and (min-width: 925px){
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      max-width: 53em;
+    }
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #main-title{
     color: #FFDE7A;
     font-family: monospace;
@@ -32,7 +50,7 @@ h2 {
     padding: 20px;
     border: 5px solid;
     margin: 10px;
-    max-width: 775px;
+    max-width: 48em;
 }
 
 #courses {
