@@ -1,40 +1,40 @@
 /*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
-*/
+ * hint:
+ * use # in front of the name of an id from your html page
+ * use . in front of the name of a class of things from your html page
+ * use , to separate a list of things that have some shared css rule
+ */
 
-body{
+body {
     padding: 30px;
     background-color: #7A0019;
     display: flex; /* this is the flexbox model. It adds responsive design to it's items */
     flex-direction: column; /* this says how the flex items will align (e.g. 'row') */
     align-items: center; /* These next two properties center the flex items */
     justify-content: center;
-
 }
 
-/* Use of media query to change the flex-direction of the #pslo and #courses elements when
-the width of the screen exceeds 1500px to put them side-by-side.
+/*
+ * Use of media query to change the flex-direction of the #pslo and #courses
+ * elements when the width of the screen exceeds 1500px to put
+ * them side-by-side.
  */
-@media screen and (min-width: 925px){
-    .flex-container {
+@media screen and (min-width: 925px) {
+    .pslo-courses-container {
       display: flex;
       flex-direction: row;
       max-width: 53em;
     }
 }
 
-.flex-container2 {
+.faculty-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#main-title{
+#main-title {
     color: #FFDE7A;
     font-family: monospace;
     text-align: center;
@@ -108,11 +108,11 @@ img.pic {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px; /*this adds some spacing around the items in our style footer*/
+    padding: 14px 16px; /*this adds some spacing around the items in our "nav bar" */
     text-decoration: none;
 }
 
-/* Change the link color to #000 (black) on hover */
+/* Change the link background color to #000 (black) on hover */
 #style li a:hover {
     background-color: #000;
 }
