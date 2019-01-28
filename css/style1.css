@@ -36,13 +36,13 @@ body {
 
 #main-title {
     color: #FFDE7A;
-    font-family: monospace;
+    font-family: 'Patua One', monospace;
     text-align: center;
     font-size: 4rem
 }
 
 h2 {
-    font-family: sans-serif
+    font-family: 'EB Garamond', serif;
 }
 
 .section {
@@ -55,10 +55,12 @@ h2 {
 
 #courses {
     background-color: #FFDE7A;
+    font-family: 'Marcellus', sans-serif;
 }
 
 #pslo {
     background-color: #d5d6d2;
+    font-family: 'Marcellus', sans-serif;
 }
 
 #faculty {
@@ -85,6 +87,15 @@ h2 {
                         550px width of screen. */
     justify-content: center;
     align-content: center;
+}
+
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.office {
+  font-family: 'Marcellus', sans-sans-serif;;
 }
 
 img.pic {
