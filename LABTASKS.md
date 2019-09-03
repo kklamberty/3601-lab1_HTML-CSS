@@ -5,7 +5,7 @@ Your task for this lab is to develop two different looks for a web page using di
  - Do not alter the HTML.
     - The _one_ exception to this rule is if you want to load Google Fonts in your HTML so they'll be available in your CSS. (There are ways to do this entirely in CSS, but the "standard" approach typically involves modifying the HTML.)
  - Be intentional and sparing with your use of absolute sizes for things like font and location. Your style sheet should make the web page look nice for both a phone and a computer screen, and your choices should not interfere with accessibility in obvious ways.
- - Be sure to follow the setup instructions in the [README.md](README.md) to set up Github pages
+ - Be sure to follow the setup instructions in the [README.md](README.md) to set up GitHub pages (including changing the [README.md](README.md) to link to your team's GitHub pages page).
 
 ## Technical Requirements
 Please read carefully the list of technical requirements below and follow it precisely.
