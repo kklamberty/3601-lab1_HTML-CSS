@@ -31,6 +31,12 @@ the branch `master`, and save your settings.
 > changes to this lab across semesters is published
 > at <http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/>;
 > yours will be at a different URL but should look somewhat similar.
+>
+> :bangbang: Once you have that URL, please include it in the "Website" box in the
+> description at the top of your GitHub project page. Click the "Edit" button on the
+> right hand side (just under "Settings") and that should give you a "Description" and
+> a "Website" box; paste the URL into the "Website" box. That will make it a lot easier
+> for us to go through all the projects and see your work.
 
 ## "Running" your project
 
