@@ -1,18 +1,24 @@
-# CSCI 3601 Lab #1 - HTML and CSS Lab
-In this lab you will learn to alter the look of a simple HTML website using CSS, following best practices
-and using validated code, all while maintaining good version control. Previous versions of this lab had students create
-both HTML and CSS, but we were inspired by [CSS Zen Garden](http://www.csszengarden.com/) to have students focus on
-understanding how CSS alone can greatly alter the look and feel of a web page. Use of flexbox helps make html elements scale
-with screen size. This is useful for making a webpage usable for mobile devices or small screens.
+# CSci 3601 Lab #1 - HTML and CSS Lab
 
-Your specific tasks for this lab can be found in the [LABTASKS.md](LABTASKS.md) file in this repository.
+In this lab you will learn to alter the look of a simple HTML website using CSS,
+following best practices and using validated code, all while maintaining
+good version control. Previous versions of this lab had students create
+both HTML and CSS, but we were inspired by [CSS Zen Garden](http://www.csszengarden.com/)
+to have students focus on understanding how CSS alone can greatly alter the
+look and feel of a web page. Use of flexbox helps make html elements scale
+with screen size. This is useful for making a webpage usable for mobile devices
+or small screens.
+
+Your specific tasks for this lab can be found in the [LABTASKS.md](LABTASKS.md)
+file in this repository.
 
 ## Setup Instructions
+
 Clone your repository to your local working environment.
 
-On GitHub, you'll need to visit the *settings* for your repository and change the *GitHub Pages*
-settings. Under the "Source" section, you'll need to select the branch `master`, and save your
-settings.
+On GitHub, you'll need to visit the *settings* for your repository and change
+the *GitHub Pages* settings. Under the "Source" section, you'll need to select
+the branch `master`, and save your settings.
 
 > Doing this will 'host' your website, specifically the version that is on
 > your `master` branch. This means that everything you push to `master`
@@ -23,21 +29,25 @@ settings.
 > When you publish your site to GitHub pages, GitHub will display the URL
 > where you can find your published site. The primary repo we use to manage
 > changes to this lab across semesters is published
-> at http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/;
+> at <http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/>;
 > yours will be at a different URL but should look somewhat similar.
 
 ## "Running" your project
-To view your website, you should be able to simply open the `index.html` file in your browser of choice.
-(In most cases, 'double clicking' the file should do this. In IntelliJ IDEA, you can right click on the file,
-choose "Open in Browser", and choose the browser you'd like to use.)
 
-Remove this line from your `README.md` file. Replace the URL in the next subsection with your team's GitHub.io URL,
-which should look something like this: http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/ but will not be identical.
+To view your website, you should be able to simply open the `index.html` file in your
+browser of choice. (In most cases, 'double clicking' the file should do this. In IntelliJ IDEA,
+you can right click on the file, choose "Open in Browser", and choose the browser you'd like to use.)
 
-#### Our Team's GitHub Pages URL
-http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/
+Remove this line from your `README.md` file. Replace the URL in the next subsection with your
+team's GitHub.io URL, which should look something like
+this: <http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/> but will not be identical.
+
+### Our Team's GitHub Pages URL
+
+<http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/>
 
 #### Version Control Reminder
+
 Remember to practice good version control! New features should be developed in
 feature branches, [commit messages should be in the present tense and provide
 meaningful information](http://chris.beams.io/posts/git-commit/),
@@ -45,11 +55,14 @@ and you should use pull requests on GitHub to merge
 changes from feature branches into your master branch.
 
 ## Resources
-#### Validating your code:
+
+### Validating your code
+
 - [HTML Validation](http://validator.w3.org/)
 - [CSS Validation](http://jigsaw.w3.org/css-validator/)
 
-#### Generally helpful things:
+### Generally helpful things
+
 - [HTML Tutorial at W3 Schools](http://www.w3schools.com/html/default.asp)
 - [HTML5 Specific Tutorial at W3 Schools](http://www.w3schools.com/html/html5_intro.asp)
 - [CSS tutorial at W3 Schools](http://www.w3schools.com/css/default.asp), particularly:
