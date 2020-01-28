@@ -70,7 +70,12 @@ Some requirements:
 You can provide multiple, space-separated classes for an item, e.g.,
 
 ```html
-    <li class="local version-control" id="git"><code>git</code></li>
+  <li class="local version-control" id="git">
+    <a href="https://git-scm.com/"><code>git</code></a>
+  </li>
+  <li class="local ide" id="vscode">
+    <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+  </li>
 ```
 
 ## Add CSS for the new HTML
