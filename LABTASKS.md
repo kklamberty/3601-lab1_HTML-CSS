@@ -21,7 +21,7 @@ Your tasks for this lab are:
   the HTML.
 
 All of the formatting (including the positioning of elements in the page) must
-  be done using CSS. **Do not alter the HTML** with two exception:
+  be done using CSS. **Do not alter the HTML** with two exceptions:
 
 - You have to extend the HTML in the first part. You should do that before you do
   any of the CSS work.
@@ -46,7 +46,7 @@ You should add a new section to the HTML (without changing any of the existing H
 that provides a list of some of the tools we'll be using in this class:
 
 - [`git`](https://git-scm.com/)
-- GitHub.com
+- [GitHub](https://github.com/)
 - [GitKraken](https://www.gitkraken.com/git-client)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [JUnit](https://junit.org/)
@@ -78,10 +78,10 @@ You can provide multiple, space-separated classes for an item, e.g.,
 Add CSS that incorporates this new HTML into the look and feel of the original
 version of the web page. A few specific requirements:
 
-- It should be displayed as a block like the other three sections.
+- The tool list information should be displayed as a block like the other three sections.
 - The header should be obviously different from the content.
-- The `local` and `cloud` items in the list should be formatting differently.
-- The `version-control`, `ide`, and `testing` items should be formatting differently
+- The `local` and `cloud` items in the list should be formatted differently.
+- The `version-control`, `ide`, and `testing` items should be formatted differently
   from each other.
 
 These last two are somewhat tricky since you're trying to provide information along
