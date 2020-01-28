@@ -41,8 +41,8 @@ the branch `master`, and save your settings.
 ## "Running" your project
 
 To view your website, you should be able to simply open the `index.html` file in your
-browser of choice. (In most cases, 'double clicking' the file should do this. In IntelliJ IDEA,
-you can right click on the file, choose "Open in Browser", and choose the browser you'd like to use.)
+browser of choice. (In most cases, 'double clicking' the file should do this. In Visual Studio Code,
+you can right click on the file, choose "Copy Path", and paste that into the browser's URL bar.)
 
 Remove this line from your `README.md` file. Replace the URL in the next subsection with your
 team's GitHub.io URL, which should look something like
