@@ -1,25 +1,100 @@
-# Lab Tasks
+# Lab Tasks <!-- omit in toc -->
+
+Be sure to follow the setup instructions in the [README.md](README.md) to set up
+GitHub pages (including changing the line in the `Running your project` section of
+the [README.md](README.md) to link to your team's GitHub pages page).
+
+- [Summary](#summary)
+- [Extending the HTML](#extending-the-html)
+- [Add CSS for the new HTML](#add-css-for-the-new-html)
+- [Create a new CSS file](#create-a-new-css-file)
+- [Technical Requirements for the CSS](#technical-requirements-for-the-css)
+- [How do you know you are "done"? How will you be graded?](#how-do-you-know-you-are-%22done%22-how-will-you-be-graded)
 
 ## Summary
 
-Your task for this lab is to develop two different looks for a web page using
-different CSS without altering the HTML.
+Your tasks for this lab are:
 
-- All of the formatting (including the positioning of elements in the page) must
-  be done using CSS.
-- Do not alter the HTML.
-  - The _one_ exception to this rule is if you want to load Google Fonts in your
-    HTML so they'll be available in your CSS. (There are ways to do this entirely in CSS
-    but the "standard" approach typically involves modifying the HTML.)
-  - Be intentional and sparing with your use of absolute sizes for things like font and
-    location. Your style sheet should make the web page look nice for both a phone and
-    a computer screen, and your choices should not interfere with accessibility in
-    obvious ways.
-  - Be sure to follow the setup instructions in the [README.md](README.md) to set up
-    GitHub pages (including changing the line in the `Running your project` section of
-    the [README.md](README.md) to link to your team's GitHub pages page).
+- To add a small bit of HTML using classes and IDs to allow you to format
+  different components in different ways.
+- To develop an additional, new look for a web page using different CSS without altering
+  the HTML.
 
-## Technical Requirements
+All of the formatting (including the positioning of elements in the page) must
+  be done using CSS. **Do not alter the HTML** with two exception:
+
+- You have to extend the HTML in the first part. You should do that before you do
+  any of the CSS work.
+- If you want to load Google Fonts you'll want to add those tags to your HTML so
+  they'll be available in your CSS. (There are ways to do this entirely in CSS
+  but the "standard" approach typically involves modifying the HTML.)
+
+Be intentional and sparing with your use of absolute sizes for things like font and
+location. Your style sheet should make the web page look nice for both a phone and
+a computer screen, and your choices should not interfere with accessibility in
+obvious ways.
+
+## Extending the HTML
+
+The current HTML has three major sections:
+
+- CSci Program Student Learning Outcomes (PSLOs)
+- CSci major requirements
+- CSci faculty
+
+You should add a new section to the HTML (without changing any of the existing HTML)
+that provides a list of some of the tools we'll be using in this class:
+
+- [`git`](https://git-scm.com/)
+- GitHub.com
+- [GitKraken](https://www.gitkraken.com/git-client)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [JUnit](https://junit.org/)
+- [Karma](https://karma-runner.github.io/latest/index.html)
+- [Protractor](https://www.protractortest.org/#/)
+- [GitHub Actions](https://github.com/features/actions)
+
+Some requirements:
+
+- Add some sort of header for this section that indicates what information is
+  being presented.
+- Each item should be be a link to the same URL as provided in the links in the
+  list above.
+- The following items should be in class "cloud": GitHub.com and GitHub Actions.
+  Every other item should be in the class "local".
+- All items should be in a class indicating that tool's area of functionality:
+  - `version-control` for `git`, GitHub.com, and GitKraken`
+  - `ide` for Visual Studio Code
+  - `testing` for JUnit, Karma, Protractor, and GitHub Actions
+
+You can provide multiple, space-separated classes for an item, e.g.,
+
+```html
+    <li class="local version-control" id="git"><code>git</code></li>
+```
+
+## Add CSS for the new HTML
+
+Add CSS that incorporates this new HTML into the look and feel of the original
+version of the web page. A few specific requirements:
+
+- It should be displayed as a block like the other three sections.
+- The header should be obviously different from the content.
+- The `local` and `cloud` items in the list should be formatting differently.
+- The `version-control`, `ide`, and `testing` items should be formatting differently
+  from each other.
+
+These last two are somewhat tricky since you're trying to provide information along
+two independent axes through just text formatting. You might do some thinking and
+reading about how you can [style text](https://www.w3schools.com/css/css_text.asp)
+in CSS and [work with fonts](https://www.w3schools.com/css/css_font.asp).
+
+## Create a new CSS file
+
+We've created a stub `style2.css` CSS file that you should flesh out to provide a
+different, but complete and coherent styling of the HTML page.
+
+## Technical Requirements for the CSS
 
 Please read carefully the list of technical requirements below and follow it precisely.
 
@@ -85,12 +160,12 @@ Please read carefully the list of technical requirements below and follow it pre
 
 - Be sure to view the rubric for the assignment to see how the technical requirements
   from the list above will impact your grade
-- **Each** of your CSS files must include **5 CSS rules with comments** that describe
-  the impact of the rule and how it differs from the other two style sheets.
+- Your CSS file must include **5 CSS rules with comments** that describe
+  the impact of the rule and how it differs from our original style sheet.
   - a rule is a selector followed by settings for this selector
   - you may include more rules to make the page look really cool, but please comment
-    on the 5 that you wish to have graded from each file
-- In addition to the minimum of 5 CSS rules with comments (in each of the CSS files),
+    on the 5 that you wish to have graded
+- In addition to the minimum of 5 CSS rules with comments,
   your CSS you must use _and point out in comments somewhere_ in your edited style
   files each of the following: **grouping, nesting, a class, and an id**.
     > Pro tip: If you play with grouping and nesting after you've already written a bit of CSS, it'll be easier to understand why it's so cool. A good explanation of grouping and nesting can be found [here](http://lmgtfy.com/?q=grouping+and+nesting+css&l=1). Also, you can see some general info on CSS selectors [here](http://www.w3schools.com/cssref/css_selectors.asp).
