@@ -23,8 +23,8 @@ different CSS without altering the HTML.
 
 Please read carefully the list of technical requirements below and follow it precisely.
 
-- Your page must be viewable using the three different **external CSS files** included
-  in your repository (one will be an example and you will alter the other two).
+- Your page must be viewable using the two different **external CSS files** included
+  in your repository (one will be an example and you will alter the other one).
 - Your **CSS must validate** using a [CSS validator](https://jigsaw.w3.org/css-validator/),
   except perhaps warnings about features not supported in all browsers.
   - Pro tip: Some newer CSS features are not widely supported. If a CSS feature you use
