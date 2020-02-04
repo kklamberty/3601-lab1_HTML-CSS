@@ -27,13 +27,6 @@ body {
   }
 }
 
-.faculty-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 #main-title {
   color: #FFDE7A;
   font-family: 'Patua One', monospace;
