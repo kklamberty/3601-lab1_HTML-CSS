@@ -6,7 +6,7 @@ use , to separate a list of things that have some shared css rule
 use float to make something locate itself on the right or left
 */
 
-body{
+body {
   padding: 30px;
   background-color: #ffffff;
 }
