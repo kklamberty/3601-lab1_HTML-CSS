@@ -48,12 +48,12 @@ h2 {
 
 #courses {
   background-color: #ffde7a;
-  font-family: "Marcellus", sans-serif;
+  font-family: "Marcellus", serif;
 }
 
 #pslo {
   background-color: #d5d6d2;
-  font-family: "Marcellus", sans-serif;
+  font-family: "Marcellus", serif;
 }
 
 #faculty {
@@ -88,7 +88,7 @@ h2 {
 }
 
 .office {
-  font-family: "Marcellus", sans-serif;
+  font-family: "Marcellus", serif;
 }
 
 img.pic {
