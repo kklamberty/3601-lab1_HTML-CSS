@@ -18,12 +18,12 @@ Clone your repository to your local working environment.
 
 On GitHub, you'll need to visit the *settings* for your repository and change
 the *GitHub Pages* settings. Under the "Source" section, you'll need to select
-the branch `master`, and save your settings.
+the branch `main`, and save your settings.
 
 > Doing this will 'host' your website, specifically the version that is on
-> your `master` branch. This means that everything you push to `master`
+> your `main` branch. This means that everything you push to `main`
 > will, in a sense, be 'published' - hence it is important that you practice
-> responsible version control and only push completed features to your `master`
+> responsible version control and only push completed features to your `main`
 > branch.
 >
 > When you publish your site to GitHub pages, GitHub will display the URL
@@ -63,7 +63,7 @@ Remember to practice good version control! New features should be developed in
 feature branches, [commit messages should be in the present tense and provide
 meaningful information](http://chris.beams.io/posts/git-commit/),
 and you should use pull requests on GitHub to merge
-changes from feature branches into your master branch.
+changes from feature branches into your `main` branch.
 
 ## Resources
 
