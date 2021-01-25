@@ -1,4 +1,13 @@
-# CSci 3601 Lab #1 - HTML and CSS Lab
+# CSci 3601 Lab #1 - HTML and CSS Lab <!-- omit in toc -->
+
+* [Setup Instructions](#setup-instructions)
+* ["Running" your project](#running-your-project)
+  * [Our Team's GitHub Pages URL](#our-teams-github-pages-url)
+  * [Version Control Reminder](#version-control-reminder)
+* [Resources](#resources)
+  * [Good commit messages and pull requests](#good-commit-messages-and-pull-requests)
+  * [Validating your code](#validating-your-code)
+  * [Generally helpful things](#generally-helpful-things)
 
 In this lab you will learn to alter the look of a simple HTML website using CSS,
 following best practices and using validated code, all while using version control
@@ -108,5 +117,5 @@ Writing good pull requests:
 - [FontJoy](https://fontjoy.com/) - a nice tool for helping find combinations of fonts that work well together. (Google Fonts provides a similar feature as well.)
 - [Colormind](http://colormind.io) – a cool tool for helping find color combinations that work well together
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - Add responsive design to automatically scale elements with page size
-  -  [A beginners guide to CSS flexbox - part one](https://dev.to/chrissiemhrk/a-beginners-guide-to-css-flexbox-part-one-29j1) (from Chrissie, 2020)
+  - [A beginners guide to CSS flexbox - part one](https://dev.to/chrissiemhrk/a-beginners-guide-to-css-flexbox-part-one-29j1) (from Chrissie, 2020)
 - [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries_ex.asp) - Add breakpoints to better design for specific sized screens
