@@ -7,7 +7,7 @@
 * [Resources](#resources)
   * [Good commit messages and pull requests](#good-commit-messages-and-pull-requests)
   * [Validating your code](#validating-your-code)
-  * [Generally helpful things](#generally-helpful-things)
+  * [Potentially useful resources](#potentially-useful-resources)
 
 In this lab you will learn to alter the look of a simple HTML website using CSS,
 following best practices and using validated code, all while using version control
@@ -89,7 +89,14 @@ changes from feature branches into your `main` branch.
 Writing good commit messages:
 
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) (from Chris Beams, 2014)
-- [How to write a good commit message](https://dev.to/chrissiemhrk/git-commit-message-5e21) (from Chrissie, 2020)
+
+> It's worth noting that GitKraken helps you with at least the structure of your commit
+> message. It has you provide a "title" (kind of a "subject line") and will fuss
+> if that gets longer than 72 characters. (It doesn't check other things, though,
+> like the verb tense and the absence of a period at the end of the title.) Behind
+> the scenes the "body" of the commit message will then be separated from the title
+> by a blank line and the lines will be wrapped to 72 characters. It can't make your
+> content useful, however – that's up to you. :grinning:
 
 Writing good pull requests:
 
@@ -104,18 +111,30 @@ Writing good pull requests:
 - [HTML Validation](http://validator.w3.org/)
 - [CSS Validation](http://jigsaw.w3.org/css-validator/)
 
-### Generally helpful things
+### Potentially useful resources
+
+General HTML:
 
 - [HTML Tutorial at W3 Schools](http://www.w3schools.com/html/default.asp)
 - [HTML5 Specific Tutorial at W3 Schools](http://www.w3schools.com/html/html5_intro.asp)
+
+General CSS:
+
 - [CSS tutorial at W3 Schools](http://www.w3schools.com/css/default.asp), particularly:
   - [A guide to font families](http://www.w3schools.com/cssref/css_websafe_fonts.asp)
   - [CSS Box Model](http://www.w3schools.com/css/css_boxmodel.asp)
   - [CSS Float](http://www.w3schools.com/css/css_float.asp)- How to position elements next to each other
   - [CSS Display and Visibility](http://www.w3schools.com/css/css_display_visibility.asp)
+  - [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp) - Add breakpoints to better design for specific sized screens
+
+Flexbox resources:
+
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - Add responsive design to automatically scale elements with page size
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox playground](https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/)
+
+General design resources:
+
 - [CSS Zen Garden](http://www.csszengarden.com/)- Some fancy examples of CSS, all of which use the same HTML, but look wildly different
 - [FontJoy](https://fontjoy.com/) - a nice tool for helping find combinations of fonts that work well together. (Google Fonts provides a similar feature as well.)
 - [Colormind](http://colormind.io) – a cool tool for helping find color combinations that work well together
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - Add responsive design to automatically scale elements with page size
-  - [A beginners guide to CSS flexbox - part one](https://dev.to/chrissiemhrk/a-beginners-guide-to-css-flexbox-part-one-29j1) (from Chrissie, 2020)
-- [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries_ex.asp) - Add breakpoints to better design for specific sized screens
