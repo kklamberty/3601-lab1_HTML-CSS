@@ -27,7 +27,7 @@ All of the formatting (including the positioning of elements in the page) must
   any of the CSS work.
 - If you want to load Google Fonts you'll want to add those tags to your HTML so
   they'll be available in your CSS. (There are ways to do this entirely in CSS
-  but there are certain advantages do doing in the HTML when we start using Angular, so we'll do it that way here.)
+  but there are certain advantages to doing it in the HTML when we start using Angular, so we'll do it that way here.)
 
 Be intentional and sparing with your use of absolute sizes for things like font and
 location. Your style sheet should make the web page look nice for both a phone and
@@ -46,7 +46,7 @@ You should add a new section to the HTML (without changing any of the existing H
 that provides a list of some of the tools we'll be using in this class:
 
 - [`git`](https://git-scm.com/)
-- [GitHub.com](https://github.com/)
+- [GitHub](https://github.com/)
 - [GitKraken](https://www.gitkraken.com/git-client)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [JUnit](https://junit.org/)
@@ -63,7 +63,7 @@ Some requirements:
 - The following items should be in class "cloud": GitHub.com and GitHub Actions.
   Every other item should be in the class "local".
 - All items should be in a class indicating that tool's area of functionality:
-  - `version-control` for `git`, GitHub.com, and GitKraken
+  - `version-control` for `git`, GitHub, and GitKraken
   - `ide` for Visual Studio Code
   - `testing` for JUnit, Karma, Cypress, and GitHub Actions
 
