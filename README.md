@@ -1,13 +1,17 @@
 # CSci 3601 Lab #1 - HTML and CSS Lab <!-- omit in toc -->
 
-* [Setup Instructions](#setup-instructions)
-* ["Running" your project](#running-your-project)
-  * [Our Team's GitHub Pages URL](#our-teams-github-pages-url)
-  * [Version Control Reminder](#version-control-reminder)
-* [Resources](#resources)
-  * [Good commit messages and pull requests](#good-commit-messages-and-pull-requests)
-  * [Validating your code](#validating-your-code)
-  * [Potentially useful resources](#potentially-useful-resources)
+- [Setup Instructions](#setup-instructions)
+- ["Running" your project](#running-your-project)
+  - [Our Team's GitHub Pages URL](#our-teams-github-pages-url)
+  - [Version Control Reminder](#version-control-reminder)
+- [Resources](#resources)
+  - [Good commit messages and pull requests](#good-commit-messages-and-pull-requests)
+  - [Validating your code](#validating-your-code)
+  - [Potentially useful resources](#potentially-useful-resources)
+    - [General HTML](#general-html)
+    - [General CSS](#general-css)
+    - [Flexbox resources](#flexbox-resources)
+    - [General design resources](#general-design-resources)
 
 In this lab you will learn to alter the look of a simple HTML website using CSS,
 following best practices and using validated code, all while using version control
@@ -113,12 +117,12 @@ Writing good pull requests:
 
 ### Potentially useful resources
 
-General HTML:
+#### General HTML
 
 - [HTML Tutorial at W3 Schools](http://www.w3schools.com/html/default.asp)
 - [HTML5 Specific Tutorial at W3 Schools](http://www.w3schools.com/html/html5_intro.asp)
 
-General CSS:
+#### General CSS
 
 - [CSS tutorial at W3 Schools](http://www.w3schools.com/css/default.asp), particularly:
   - [A guide to font families](http://www.w3schools.com/cssref/css_websafe_fonts.asp)
@@ -127,13 +131,17 @@ General CSS:
   - [CSS Display and Visibility](http://www.w3schools.com/css/css_display_visibility.asp)
   - [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp) - Add breakpoints to better design for specific sized screens
 
-Flexbox resources:
+#### Flexbox resources
 
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) - Add responsive design to automatically scale elements with page size
+Add responsive design to automatically scale elements with page size.
+
+- [Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Flexbox playground](https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/)
+- [A Visual Guide to CSS Flexbox](https://www.freecodecamp.org/news/do-you-even-flex-box-c16449cfca96/)
+- [Flexbox playground](https://coding.imweb.io/demo/flex/index.html)
 
-General design resources:
+#### General design resources
 
 - [CSS Zen Garden](http://www.csszengarden.com/)- Some fancy examples of CSS, all of which use the same HTML, but look wildly different
 - [FontJoy](https://fontjoy.com/) - a nice tool for helping find combinations of fonts that work well together. (Google Fonts provides a similar feature as well.)
