@@ -25,7 +25,7 @@ All of the formatting (including the positioning of elements in the page) must
 
 - You have to extend the HTML in the first part. You should do that before you do
   any of the CSS work.
-- If you want to load fonts from sources like [Google Fonts](https://fonts.google.com/)
+- If you want to load fonts from sources like [Google Fonts](https://fonts.google.com/),
   [Font Awesome](https://fontawesome.com/), or similar,
   you'll want to add those tags to your HTML so
   they'll be available in your CSS. (There are ways to do this entirely in CSS
