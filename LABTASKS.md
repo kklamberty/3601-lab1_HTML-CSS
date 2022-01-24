@@ -25,7 +25,9 @@ All of the formatting (including the positioning of elements in the page) must
 
 - You have to extend the HTML in the first part. You should do that before you do
   any of the CSS work.
-- If you want to load Google Fonts you'll want to add those tags to your HTML so
+- If you want to load fonts from sources like [Google Fonts](https://fonts.google.com/)
+  [Font Awesome](https://fontawesome.com/), or similar,
+  you'll want to add those tags to your HTML so
   they'll be available in your CSS. (There are ways to do this entirely in CSS
   but there are certain advantages to doing it in the HTML when we start using Angular, so we'll do it that way here.)
 
@@ -94,7 +96,10 @@ version of the web page. A few specific requirements:
 These last two are somewhat tricky since you're trying to provide information along
 two independent axes through just text formatting. You might do some thinking and
 reading about how you can [style text](https://www.w3schools.com/css/css_text.asp)
-in CSS and [work with fonts](https://www.w3schools.com/css/css_font.asp).
+in CSS and [work with fonts](https://www.w3schools.com/css/css_font.asp). You can
+also do some nifty things with the CSS _pseudo-elements_ `:before` and `:after` to
+[add icons/symbols before or after an HTML element](https://fontawesome.com/v5.15/how-to-use/on-the-web/advanced/css-pseudo-elements);
+maybe a cloud icon before cloud tools. :stuck_out_tongue_winking_eye:
 
 :exclamation: **These CSS additions should validate.**
 
