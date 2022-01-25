@@ -1,5 +1,7 @@
 # CSci 3601 Lab #1 - HTML and CSS Lab <!-- omit in toc -->
 
+[![Check Markdown links](../../actions/workflows/link-check.yaml/badge.svg)](../../actions/workflows/link-check.yaml)
+
 - [Setup Instructions](#setup-instructions)
 - ["Running" your project](#running-your-project)
   - [Our Team's GitHub Pages URL](#our-teams-github-pages-url)
